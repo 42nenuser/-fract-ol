@@ -1,4 +1,4 @@
-![Alt text](fractal.jpg)
+![Alt text](mandelbrotset.webp)
 
 # Fractol - Computer Graphics Fractals
 
