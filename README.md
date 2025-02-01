@@ -17,44 +17,49 @@ Fractol is a fractal visualization program written in C using the **MiniLibX** g
 ```sh
 git clone https://github.com/yourusername/fractol.git
 cd fractol
-2️⃣ Compile the Program
+```
 
-Make sure you have MiniLibX installed before compiling. Then, run:
-
+### **2️⃣ Compile the Program**
+Make sure you have **MiniLibX** installed before compiling. Then, run:
+```sh
 make
+```
 
-3️⃣ Run the Program
-
+### **3️⃣ Run the Program**
+```sh
 ./fractol [fractal_type]
-
+```
 Available fractal types:
-
-    mandelbrot
-    julia
-    other_fractal (if implemented as a bonus)
+- `mandelbrot`
+- `julia`
+- `other_fractal` (if implemented as a bonus)
 
 Example:
-
+```sh
 ./fractol mandelbrot
+```
 
-🎮 Controls
-Key/Mouse Action	Function
-Scroll Up / Scroll Down	Zoom In / Zoom Out
-Arrow Keys	Move the view
-ESC	Exit the program
-📚 Dependencies
+## 🎮 Controls
+| **Key/Mouse Action** | **Function** |
+|----------------------|-------------|
+| `Scroll Up` / `Scroll Down` | Zoom In / Zoom Out |
+| `Arrow Keys` | Move the view |
+| `ESC` | Exit the program |
 
-    C programming language
-    MiniLibX (mlx library)
-    Math library (-lm)
-    Libft (if used)
+## 📚 Dependencies
+- **C programming language**
+- **MiniLibX (mlx library)**
+- **Math library (-lm)**
+- **Libft (if used)**
 
-🛠️ Development Notes
+## 🛠️ Development Notes
+- The project follows **strict memory management** rules to prevent leaks.
+- Compiled with flags: `-Wall -Wextra -Werror`
+- No global variables are used, and all functions comply with coding standards.
 
-    The project follows strict memory management rules to prevent leaks.
-    Compiled with flags: -Wall -Wextra -Werror
-    No global variables are used, and all functions comply with coding standards.
+## 📜 License
+This project is developed as part of **42 School's curriculum**.
 
-📜 License
+---
 
-This project is developed as part of 42 School's curriculum.
+Enjoy exploring fractals! 🚀
